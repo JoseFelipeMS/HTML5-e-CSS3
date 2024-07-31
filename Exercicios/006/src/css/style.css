@@ -1,0 +1,20 @@
+*{
+    max-width: 90%;
+}
+h1 {
+    font-size: 40px;
+}
+li{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px
+}
+li .descricao{
+    background-color: blue;
+    border-radius: 10px;
+    text-align: cente
+}
+.descricao .titulo{
+    background-color: aliceblue;
+}

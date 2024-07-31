@@ -1,0 +1,33 @@
+@font-face {
+    font-family: love;
+    src: url(love\ larry\ ttf.ttf);
+}
+
+body{
+    background-image: linear-gradient(to left, #F1C8AF, #b3837a);
+    font-family:love;
+}
+
+main{
+    box-decoration-break: slice;
+    background-color: aliceblue;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #000000;
+    outline:3em
+}
+
+h1{
+    color: #BE5056;
+}
+
+h2{
+    color: #BE5056;
+}
+
+p{
+    text-align: justify;
+    color: #DC8898;
+}

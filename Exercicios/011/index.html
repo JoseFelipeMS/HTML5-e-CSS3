@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir estas imagens em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="src/img/dan-droids.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="src/img/dan-droids-pq.png" type="image/png">
+        <img src="src/img/dan-droids-pq.png" alt="">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios</p>
+    <audio preload="metadata" controls>
+        <p>autoplay pode ser inserido para iniciar a pagina com o arquivo de audio sendo Reproduzido</p>
+        <source src="src/media/guanacast-33.mp3" type="audio/mpeg">
+        <p>Infelizmente seu computador não suporta o arquivo de áudio <br> clique no link para fazer o download d arquivo <br><a href="src/media/guanacast-33.mp3" download=""></a></p>
+    </audio>
+    <h1>Inserindo Vídeos</h1>
+    <p>Estes videos estão no armazenamento interno</p>
+    <video width="560px" poster="src/img/thumb.png" controls loop>
+        <source src="src/media/Meu-Video.ogv.ogv" type="video/ogv">
+        <source src="src/media/Meu-Video.Webm.webm" type="video/webm">
+        <source src="src/media/Meu-Video.MKV.mkv" type="video/MKV">
+        <source src="src/media/Meu-Video.mp4"  type="video/MP4">
+    </video>
+    <h1>Hospedagem Externa</h1>
+    <p>Estes são videos com hospedagem externa</p>
+    <h1>Hospedagem no Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=2mGG1tdSwfX-T7vu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Hospedagem Paga(vimeo)</h1>
+    <iframe src="https://player.vimeo.com/video/339152540?h=2163db6471" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/339152540">Lemoncholy</a> from <a href="https://vimeo.com/mpirulli">Maya Pirulli</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

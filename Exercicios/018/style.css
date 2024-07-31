@@ -1,0 +1,7 @@
+@font-face {
+    font-family: minhafonte;
+    src: url(love\ larry\ ttf.ttf);
+}
+h1{
+    font-family: minhafonte;
+}
